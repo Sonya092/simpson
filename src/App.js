@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import QuoteQuard from "./Components/QuoteQuard.jsx";
 
 function App() {
   return (
     <div className="App">
-      <h1>Simpson</h1>
+      <h1>Simpsons</h1>
+
+      <QuoteQuard />
     </div>
   );
 }
